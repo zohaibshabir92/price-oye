@@ -1,5 +1,7 @@
 <?php
 
+$DATABASE_URL = parse_url("postgres://ucygbfueawejmd:4ad407fcdfd3f0a50208f204d5f9f3a7a5142bc259bd2e8ce2a44fd7cf7fd205@ec2-23-21-86-22.compute-1.amazonaws.com:5432/d4vre8dt4nc0ml");
+
 return [
 
     /*
@@ -31,7 +33,7 @@ return [
     |
     */
 
-    $DATABASE_URL = parse_url(getenv("DATABASE_URL"));
+    
 
     'connections' => [
 
