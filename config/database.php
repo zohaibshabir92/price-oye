@@ -64,7 +64,7 @@ return [
             'driver' => 'pgsql',
             'host' => 'ec2-23-21-86-22.compute-1.amazonaws.com',
             'port' => '5432',
-            'database' => ltrim($DATABASE_URL["path"],"/"),
+            'database' => 'd4vre8dt4nc0ml',
             'username' => 'ucygbfueawejmd',
             'password' => '4ad407fcdfd3f0a50208f204d5f9f3a7a5142bc259bd2e8ce2a44fd7cf7fd205',
             'charset' => 'utf8',
